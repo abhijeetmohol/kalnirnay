@@ -1,0 +1,525 @@
+<html>
+	<head>
+		<title>
+			kalnirnay
+		</title>
+		<style>
+			*{
+				margin:0px;
+				padding:0px;	
+			}
+			
+			.border{
+					border:1px solid red;
+				
+			}
+			.outer-table{
+					border: 1px solid white;
+					margin: 0px auto;
+					
+					border-spacing: 0px;
+			}
+			td{
+				width:130px;
+				height:140px;
+			
+			}
+			.td-height{
+					height: 80px;
+					border-top: 5px white solid;
+					border-bottom: 5px white solid;
+					border-left: 1px white solid;
+					border-right: 1px white solid;
+			}
+			.side-width{
+					width: 80px;
+					height:100px;
+					border-right: 1px white solid;
+					border-bottom: hidden;
+					border-left: 3px solid white;
+					border-top: 1px white solid;
+			}
+			.top-adv{
+					height:230px;
+					border-top: 1px white solid;
+					border-left: 1px white solid;
+					border-right: 1px white solid;
+			}
+			.bg-color-jan{
+					background-color:#D6C82D;
+					color: #024784;
+					text-align: center;
+					font-size:47px;
+					font-weight:700;
+			}
+			.bg-color-मार्गशीष{
+						background-color:#F1C7DB;
+						color:#8B413A;
+						text-align:center;
+						font-size:18px;
+						font-weight:700;
+						border-left: 1px solid white;
+			}
+			.नववर्षाभिनंदन-text{
+						background-color:#a35d8c;
+						color: #ffffff;
+						text-align: center;
+						font-size:42px;
+						font-weight:700;
+			}
+			.last-column{
+						bacKground-color: #FCE700;
+						color: #024784;
+						text-align: center;
+						font-size: 50px;
+						font-weight:700;
+						border-top: 5px white solid;
+						border-bottom: 5px white solid;
+						border-left:3px solid white;
+				
+			}
+			.last-column-color{
+							background-color: #FEC91D;
+							color: #7A7802;
+							text-align: right;
+							font-size:16px;
+							border-bottom: 1px solid white;
+							border-left:3px solid white;
+							
+							border-top: hidden;
+							
+			}
+			.sunday{
+					background-color: #CB3233;
+					color: #ffffff;
+					font-size:50px;
+					text-align:center;
+					padding-top:20px;
+					border-left: 1px white solid;
+					border-right:2px solid white;
+					border-bottom-style: hidden;
+					border-top: hidden;
+					
+			}
+			.DOW{
+				background-color: #225F95;
+				color: #ffffff;
+				font-size:50px;
+				text-align:center;
+				padding-top:20px;
+				border-left: 1px white solid;
+			
+				border-right:2px solid white;
+				border-bottom-style: hidden;
+			}
+			.numbers{
+					font-size:65px;
+					text-align:right;
+					color: #225F95;
+					font-weight:700;
+					padding-top:55px;
+					padding-right:5px;
+				
+			}
+			.p{
+				font-size:20px;
+				text-align:center;
+				color:#ffffff;
+				margin-top:30px;
+				background-color: #626456;
+				padding-bottom:5px;
+			}
+			.holiday{
+					color:red;
+			}
+			.img-position-1{
+						text-align:center;
+						background-color: #ffffff;
+						
+						border-right: 0px;
+			}
+			.img-position-2{
+						text-align:center;
+						
+						border-right: 0px;
+						border-bottom: 0px;
+					
+			}
+			.date-2{
+					background-color:#aed6f1;
+			}
+			.date-13-28{
+					background-color:#F1C7DB;
+			}
+			.date-21{
+					background-color:#fdedec;
+			}
+			.date-17{
+					background-color:#fef9e7;
+			}
+			
+			.table-1{
+					border: 0.5px red solid;
+					width:61px;
+					height:18.5px;
+					border-collapse: collapse;
+					font-size: 8px;
+					text-align: center;
+					color: #225F95;
+					border-collapse:collapse;
+					font-weight:700;
+			}
+			
+			.डिसेंबर{
+					text-align: center;
+					background-color: #CB3233;
+					color: yellow;
+					border-bottom: 1px solid white;
+					font-weight:700;
+					font-size:10px;
+			}
+			p{
+				text-align: center;
+				background-color:yellow;
+				color: red;
+				font-weight:700;
+				
+				font-size:15px;
+				padding-top:2px;
+				
+			}
+			.rupees{
+				margin-top:0px;
+			}
+			.bg-color-internal-table{
+				background-color: #faf8c5;
+			}
+			.internal-table-color{
+						color: red;
+			}
+			.border-0px-top{
+						border-bottom: 0px;
+
+			}
+			.border-0px-right{
+						border-right: 0px;
+			}
+			.internal-table-border{
+					border-left:0px;
+			}
+			.internal-table-border-bottom{
+						border-bottom:0px;
+			}
+			div{
+				padding-right:3px;
+				font-size:15px;
+				line-height:23px;
+				margin-top:20px;
+			}
+		
+		</style>
+	</head>
+	<body>
+		<table class="border outer-table">
+			<tr class="border">
+				<td class="border top-adv borders " colspan="7">
+					<img src="cal-adv-top-1.jpg" alt="top-adv" width="960px" height="232px"/>
+				</td>
+
+			</tr>
+			<tr class="border">
+				<td class="border td-height bg-color-jan borders" colspan="3">
+					जानेवारी २०२२
+				</td>
+			
+				<td class="border td-height bg-color-मार्गशीष ">
+					मार्गशीष / पौष शके १९४३
+				</td>
+				<td class="border td-height नववर्षाभिनंदन-text " colspan="2">
+					नववर्षाभिनंदन
+				</td>
+				
+				<td class="border td-height side-width last-column ">१</td>
+
+			</tr>
+			<tr class="border">
+				<td class="border side-width sunday">
+					र<p class="p">रविवार</p>
+				</td>
+				<td class="border numbers holiday extra-red-border border-0px-top border-0px-right" >३०</td>
+				<td class="border numbers holiday date-2 border-0px-top border-0px-right">२</td>
+				<td class="border numbers holiday border-0px-top border-0px-right">९</td>
+				<td class="border numbers holiday border-0px-top border-0px-right">१६</td>
+				<td class="border numbers holiday border-0px-top">२३</td>
+				<td class="border side-width last-column-color" rowspan="5">
+												<div>
+														<small>........................0१</small>
+														<small>........................0२</small>
+														<small>........................0३</small>
+														<small>........................0४</small>
+														<small>........................0५</small>
+														<small>........................0६</small>
+														<small>........................0७</small>
+														<small>........................0८</small>
+														<small>........................0९</small>
+														<small>........................१०</small>
+														<small>........................११</small>
+														<small>........................१२</small>
+														<small>........................१३</small>
+														<small>........................१४</small>
+														<small>........................१५</small>
+														<small>........................१६</small>
+														<small>........................१७</small>
+														<small>........................१८</small>
+														<small>........................१९</small>
+														<small>........................२०</small>
+														<small>........................२१</small>
+														<small>........................२२</small>
+														<small>........................२३</small>
+														<small>........................२४</small>
+														<small>........................२५</small>
+														<small>........................२६</small>
+														<small>........................२७</small>
+														<small>........................२८</small>
+														<small>........................२९</small>
+														<small>........................३0</small>
+														<small>........................३१</small>
+													</div>
+														<p  class="rupees">किंमत ₹ ४०</p>
+				</td>
+
+			</tr>
+			<tr class="border">
+				<td class="border side-width DOW margin">
+					सो<p class="p">सोमवार</p>
+				</td>
+
+				<td class="border numbers border-0px-top border-0px-right">३१</td>
+				<td class="border numbers border-0px-top border-0px-right">३</td>
+				<td class="border numbers border-0px-top border-0px-right">१०</td>
+				<td class="border numbers date-17 border-0px-top border-0px-right">१७</td>
+				<td class="border numbers border-0px-top">२४</td>
+			
+
+			</tr>
+			<tr class="border">
+				<td class="border side-width DOW margin">
+					मं<p class="p">मंगळवार</p>
+				</td>
+				<td class="border  img-position-1 border-0px-top" rowspan="2">
+						<img src="cal-adv-side-1.jpg" alt="adv1" width="130px" height="260px"/>
+				</td>
+				<td class="border numbers border-0px-top border-0px-right">४</td>
+				<td class="border numbers border-0px-top border-0px-right">११</td>
+				<td class="border numbers border-0px-top border-0px-right">१८</td>
+				<td class="border numbers border-0px-top">२५</td>
+				
+
+			</tr>
+			<tr class="border">
+				<td class="border side-width DOW margin">
+					बु<p class="p">बुधवार</p>
+				</td>
+				
+				<td class="border numbers border-0px-top border-0px-right">५</td>
+				<td class="border numbers border-0px-top border-0px-right">१२</td>
+				<td class="border numbers border-0px-top border-0px-right">१९</td>
+				<td class="border numbers holiday border-0px-top">२६</td>
+				
+
+			</tr>
+			<tr class="border">
+				<td class="border side-width DOW margin">
+					गु<p class="p">गुरुवार</p>
+				</td>
+				<td class="border img-position-2" rowspan="2">
+						<img src="cal-adv-side-2.jpg" alt="adv1" width="130px" height="260px"/>
+				</td>
+				<td class="border numbers border-0px-top border-0px-right">६</td>
+				<td class="border numbers date-13-2 border-0px-top border-0px-right">१३</td>
+				<td class="border numbers border-0px-top border-0px-right">२०</td>
+				<td class="border numbers border-0px-top">२७</td>
+			
+
+			</tr>
+			<tr class="border">
+				<td class="border side-width DOW margin">
+					शु<p class="p">शुक्रवार</p>
+				</td>
+				
+				<td class="border numbers border-0px-top border-0px-right">७</td>
+				<td class="border numbers border-0px-top border-0px-right">१४</td>
+				<td class="border numbers date-21 border-0px-top border-0px-right">२१</td>
+				<td class="border numbers date-13-28 border-0px-top">२८</td>
+				<td class="border side-width bg-color-internal-table">
+						<table class="outer-table">
+							<tr>
+								<td class="table-1 डिसेंबर" colspan="7" >
+									डिसेंबर  २०२१
+								</td>
+								
+							</tr>
+							<tr>
+								<td class="table-1 internal-table-color internal-table-border-bottom">र</td>
+								<td class="table-1 internal-table-color internal-table-border internal-table-border-bottom"></td>
+								<td class="table-1 internal-table-color internal-table-border internal-table-border-bottom">5</td>
+								<td class="table-1 internal-table-color internal-table-border internal-table-border-bottom">12</td>
+								<td class="table-1 internal-table-color internal-table-border internal-table-border-bottom">19</td>
+								<td class="table-1 internal-table-color internal-table-border internal-table-border-bottom">26</td>
+						
+							</tr>
+							<tr>
+								<td class="table-1 internal-table-border-bottom">सो</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom"></td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">6</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">13</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">20</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">27</td>
+						
+							</tr>
+							<tr>
+								<td class="table-1 internal-table-border-bottom">मं</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom"></td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">7</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">14</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">21</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">28</td>
+							
+							</tr>
+							<tr>
+								<td class="table-1 internal-table-border-bottom">बु</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">1</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">8</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">15</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">22</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">29</td>
+								
+							</tr>
+							<tr>
+								<td class="table-1 internal-table-border-bottom">गु</td>	
+								<td class="table-1 internal-table-border internal-table-border-bottom">2</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">9</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">16</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">23</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">30</td>
+					
+							</tr>
+							<tr>
+								<td class="table-1 internal-table-border-bottom">शु</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">3</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">10</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">17</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">24</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">31</td>
+			
+							</tr>
+							<tr>
+								<td class="table-1">श</td>
+								<td class="table-1 internal-table-border">4</td>
+								<td class="table-1 internal-table-border">11</td>
+								<td class="table-1 internal-table-border">18</td>
+								<td class="table-1 internal-table-border">25</td>
+								<td class="table-1 internal-table-border"></td>
+					
+							</tr>
+						</table>
+
+				</td>
+
+			</tr>
+			<tr class="border">
+				<td class="border side-width DOW margin">
+					श<p class="p">शनिवार</p>
+				</td>
+				<td class="border numbers border-0px-right">१</td>
+				<td class="border numbers border-0px-right">८</td>
+				<td class="border numbers border-0px-right">१५</td>
+				<td class="border numbers border-0px-right">२२</td>
+				<td class="border numbers">२९</td>
+				<td class="border side-width bg-color-internal-table">
+					<table class="outer-table">
+							<tr>
+								<td class="table-1 डिसेंबर" colspan="7" >
+									फेब्रुवारी २०२२
+								</td>
+								
+							</tr>
+							<tr class="internal-table">
+								<td class="table-1 internal-table-color internal-table-border-bottom">र</td>
+								<td class="table-1 internal-table-color internal-table-border internal-table-border-bottom"></td>
+								<td class="table-1 internal-table-color internal-table-border internal-table-border-bottom">6</td>
+								<td class="table-1 internal-table-color internal-table-border internal-table-border-bottom">13</td>
+								<td class="table-1 internal-table-color internal-table-border internal-table-border-bottom">20</td>
+								<td class="table-1 internal-table-color internal-table-border internal-table-border-bottom">27</td>
+
+								
+							</tr>
+							<tr class="internal-table">
+								<td class="table-1 internal-table-border-bottom">सो</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom"></td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">7</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">14</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">21</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">28</td>
+
+						
+							</tr>
+							<tr class="internal-table">
+								<td class="table-1 internal-table-border-bottom">मं</td>
+
+								<td class="table-1 internal-table-border internal-table-border-bottom">1</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">8</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">15</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">22</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom"></td>
+							</tr>
+							<tr>
+								<td class="table-1 internal-table-border-bottom">बु</td>
+								
+								<td class="table-1 internal-table-border internal-table-border-bottom">2</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">9</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">16</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">23</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom"></td>
+							</tr>
+							<tr>
+								<td class="table-1 internal-table-border-bottom">गु</td>	
+								
+								<td class="table-1 internal-table-border internal-table-border-bottom">3</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">10</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">17</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">24</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom"></td>
+							</tr>
+							<tr>
+								<td class="table-1 internal-table-border-bottom">शु</td>
+								
+								<td class="table-1 internal-table-border internal-table-border-bottom">4</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">11</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">18</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom">25</td>
+								<td class="table-1 internal-table-border internal-table-border-bottom"></td>
+							</tr>
+							<tr>
+								<td class="table-1">श</td>
+								
+								<td class="table-1 internal-table-border">5</td>
+								<td class="table-1 internal-table-border">12</td>
+								<td class="table-1 internal-table-border">19</td>
+								<td class="table-1 internal-table-border">26</td>
+								<td class="table-1 internal-table-border"></td>
+							</tr>
+						</table>
+
+				</td>
+
+			</tr>
+			<tr class="border">
+				<td class="border td-height " colspan="7">
+						<img src="cal-adv-bottom-1.jpg" alt="bottom-adv" width="960px" height="94px"/>
+				</td>
+
+			</tr>
+		</table>
+	</body>
+</html>
